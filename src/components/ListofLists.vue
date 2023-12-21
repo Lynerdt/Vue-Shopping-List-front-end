@@ -13,11 +13,13 @@ fetch('http://localhost:3000/lists/', {
 <template>
   <div v-for="list in lists" :key="list.id">
     <h2>{{ list.title }}</h2>
-
-    <li v-for="item in list.items" :key="item.id">
-      {{ item.itemName }}
-      {{ console.log(item.itemName) }}
-    </li>
+    <ul>
+      <li v-for="item in list.items" :key="item.id">
+        {{ item.itemName }}
+        <input v-model="purchased" type="checkbox" />
+        <addItem :itemProp="item" :list="list" />
+      </li>
+    </ul>
   </div>
 </template>
 =

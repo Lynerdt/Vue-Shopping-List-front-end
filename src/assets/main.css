@@ -1,0 +1,51 @@
+:root {
+	--primary: #1d8e63;
+--light: #EEE;
+	--grey: #888;
+	--dark: #313154;
+	
+
+	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+	
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+  display: flexbox;
+	font-family: 'montserrat', sans-serif;
+}
+
+body {
+	background: var(--light);
+	color: var(--dark);
+}
+
+.make-list input[type="text"] {
+	display: flex;
+	width: 100vw;
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	color: var(--dark);
+	background-color: #FFF;
+	border-radius: 0.5rem;
+	box-shadow: var(--shadow);
+	
+  margin: 20px;
+}
+
+ input[type="submit"] {
+	display: flex;
+	width: 100vw;
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	color: #FFF;
+	background-color: var(--primary);
+	border-radius: 0.5rem;
+	box-shadow: var(--personal-glow);
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+  margin: 20px;
+}

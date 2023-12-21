@@ -1,14 +1,11 @@
 <script setup>
 import { ref } from 'vue'
 
-const props = defineProps({ item: Object })
+const props = defineProps({ item: String })
 </script>
 
 <template>
-  <ul>
-    <li v-for="item in items" :key="item.id">
-      {{}}
-      {{ list.items.itemName }}
-    </li>
-  </ul>
+  <div>
+    {{ props.item }}
+  </div>
 </template>
