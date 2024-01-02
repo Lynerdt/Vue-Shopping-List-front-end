@@ -1,0 +1,139 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "title": "Sample shopping list",
+      "items": [
+        "S",
+        "a",
+        "m",
+        "p",
+        "l",
+        "e",
+        " ",
+        "s",
+        "h",
+        "o",
+        "p",
+        "p",
+        "i",
+        "n",
+        "g",
+        " ",
+        "l",
+        "i",
+        "s",
+        "t",
+        {
+          "id": 2,
+          "itemName": "za",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2024-01-02T01:25:53.744Z"
+    },
+    {
+      "title": "target",
+      "items": [
+        "t",
+        "a",
+        "r",
+        "g",
+        "e",
+        "t",
+        {
+          "id": 1,
+          "itemName": "coke",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2024-01-02T01:08:22.443Z",
+      "id": 2
+    },
+    {
+      "title": "subway",
+      "items": [],
+      "updatedAt": "2023-12-21T21:27:22.547Z",
+      "id": 3
+    },
+    {
+      "title": "Mcdonalds",
+      "items": [
+        "M",
+        "c",
+        "d",
+        "o",
+        "n",
+        "a",
+        "l",
+        "d",
+        "s",
+        {
+          "id": 1,
+          "itemName": "burger",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2024-01-02T01:40:03.623Z",
+      "id": 4
+    },
+    {
+      "title": "",
+      "items": [],
+      "updatedAt": "2023-12-21T21:40:59.122Z",
+      "id": 5
+    },
+    {
+      "title": "fdfdfdf",
+      "items": [],
+      "updatedAt": "2023-12-21T21:41:02.347Z",
+      "id": 6
+    },
+    {
+      "title": "hello",
+      "items": [],
+      "updatedAt": "2023-12-21T21:56:20.188Z",
+      "id": 7
+    },
+    {
+      "title": "macys",
+      "items": [],
+      "updatedAt": "2023-12-21T22:01:02.969Z",
+      "id": 8
+    },
+    {
+      "title": "",
+      "items": [],
+      "updatedAt": "2023-12-21T22:01:04.505Z",
+      "id": 9
+    },
+    {
+      "title": "food",
+      "items": [],
+      "updatedAt": "2023-12-21T22:09:36.982Z",
+      "id": 10
+    },
+    {
+      "title": "Target",
+      "items": [],
+      "updatedAt": "2024-01-01T23:50:49.287Z",
+      "id": 11
+    },
+    {
+      "title": "sams",
+      "items": [
+        "s",
+        "a",
+        "m",
+        "s",
+        {
+          "id": 1,
+          "itemName": "eggs",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2024-01-02T01:11:57.356Z",
+      "id": 12
+    }
+  ]
+}
