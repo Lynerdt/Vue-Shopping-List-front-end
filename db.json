@@ -4,50 +4,30 @@
       "id": 1,
       "title": "Sample shopping list",
       "items": [
-        "S",
-        "a",
-        "m",
-        "p",
-        "l",
-        "e",
-        " ",
-        "s",
-        "h",
-        "o",
-        "p",
-        "p",
-        "i",
-        "n",
-        "g",
-        " ",
-        "l",
-        "i",
-        "s",
-        "t",
         {
           "id": 2,
-          "itemName": "za",
+          "itemName": "ice",
           "purchased": false
         }
       ],
-      "updatedAt": "2024-01-02T01:25:53.744Z"
+      "updatedAt": "2024-01-02T02:12:41.044Z"
     },
     {
       "title": "target",
       "items": [
-        "t",
-        "a",
-        "r",
-        "g",
-        "e",
-        "t",
+       
         {
           "id": 1,
           "itemName": "coke",
           "purchased": false
+        },
+        {
+          "id": 2,
+          "itemName": "pepsi",
+          "purchased": true
         }
       ],
-      "updatedAt": "2024-01-02T01:08:22.443Z",
+      "updatedAt": "2024-01-02T02:15:41.155Z",
       "id": 2
     },
     {
@@ -59,15 +39,7 @@
     {
       "title": "Mcdonalds",
       "items": [
-        "M",
-        "c",
-        "d",
-        "o",
-        "n",
-        "a",
-        "l",
-        "d",
-        "s",
+      
         {
           "id": 1,
           "itemName": "burger",
@@ -122,18 +94,36 @@
     {
       "title": "sams",
       "items": [
-        "s",
-        "a",
-        "m",
-        "s",
         {
-          "id": 1,
-          "itemName": "eggs",
+          "id": 2,
+          "itemName": "cow",
+          "purchased": false
+        },
+        {
+          "id": 2,
+          "itemName": "pool",
           "purchased": false
         }
       ],
-      "updatedAt": "2024-01-02T01:11:57.356Z",
+      "updatedAt": "2024-01-02T02:14:19.808Z",
       "id": 12
+    },
+    {
+      "title": "Express",
+      "items": [
+        {
+          "id": 1,
+          "itemName": "shirts",
+          "purchased": false
+        },
+        {
+          "id": 2,
+          "itemName": "pants",
+          "purchased": false
+        }
+      ],
+      "updatedAt": "2024-01-02T02:16:27.911Z",
+      "id": 13
     }
   ]
 }

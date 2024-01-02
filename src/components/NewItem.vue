@@ -14,7 +14,7 @@ const addNewItem = () => {
     body: JSON.stringify({
       title: props.list.title,
       items: [
-        ...props.list.title,
+        ...props.list.items,
         {
           id: props.list.items.length + 1,
           itemName: newItem.value,
@@ -45,7 +45,7 @@ const resetItem = () => {
       <input v-model="newItem" type="text" placeholder="Add Item" />
       <button type="submit">Add</button>
     </form>
-    <button v-if="addingItem" @click="addItem(false)">Don't Add</button>
+    <button v-if="addingItem" @click="addItem(false)">Cancel</button>
     <button v-else @click="addItem(true)">Add Item</button>
   </div>
 </template>
